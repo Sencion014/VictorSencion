@@ -5,6 +5,8 @@
 *{
     margin: 0px;
     padding: 0px;
+
+    text-decoration: none;
 }
 
 /* REGLA PARA EL FORMATO DEL BODY O CUERPO  */
@@ -16,7 +18,7 @@ body{
 
 /* REGLA PARA EL FORMATO DEL CONTENEDOR PRINCIPAL  */
 .container{
-    width: 70%;
+    width: 90%;
     height: 100%;
     margin:0px auto;
     border-radius: 5px;
@@ -30,7 +32,18 @@ body{
 
 /* REGLA PARA EL FORMATO DEL HEADER O ENCABEZADO  */
 header{
-    color: white;
+
+
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    line-height: 100px ;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+
+}
+header h1{
+    color:white;
     text-align: center;
     background-color: black;
     width: 100%;
@@ -38,6 +51,7 @@ header{
     line-height: 100px ;
     margin-top: 10px;
     margin-bottom: 10px; 
+    font-size: 13px;
 }
 
 /* REGLA PARA EL FORMATO DEL NAV O NAVEGACION O MENUS  */
@@ -54,10 +68,10 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
     line-height:50% ;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -66,7 +80,7 @@ nav ul li{
 /* REGLA PARA EL FORMATO SECTION O LA PARTE DE CONTENIDO  */
 
 #contenido{
-    width: 70%;
+    width: 100%;
     height:100%;
     background-color: grey;
     float: left;
@@ -113,6 +127,7 @@ p{
     text-shadow: 2px 2px 5px rgb(6, 147, 241);
     font-size: 25px;
     text-align: center;
+    color: black;
 
 }
 
@@ -120,7 +135,7 @@ p{
 .parrafo1{
     font-size: 18px;
     text-align: justify;
-      color: white;
+      color: black;
     background-color: whitesmoke;
     margin:10px;
 }
@@ -130,7 +145,7 @@ p{
     font-size: 20px;
     text-align: justify;
     line-height: 30px;
-    color: white;
+    color: black;
     background-color: whitesmoke;
     margin:10px;
 }
@@ -138,7 +153,7 @@ p{
     font-size: 20px;
     text-align: justify;
     line-height: 30px;
-    color: white;
+    color: black;
     background-color: whitesmoke;
     margin:10px;
 }
@@ -155,11 +170,10 @@ img{
 
 /* REGLA PARA EL FORMATO ASIDE O SECCION DE PUBLICIDAD O NOTICIAS RELEVANTESS */
 aside{
-    width: 28%;
+    width: 100%;
     height: auto;
     background-color: grey;
-    float: right;
-    margin-top: 10px;
+    float: left;
 }
 
 /* REGLA PARA EL FORMATO DEL H2 EN EL ASIDE */
@@ -167,7 +181,7 @@ aside h2{
     font-size:30px;
     text-align: center;
     line-height:300px;
-    color: white;
+    color: black;
 
 }
 
@@ -193,9 +207,11 @@ footer{
 /* REGLA PARA EL FORMATO DEL PARRAFO DEL PIE DE PAGINA O FOOTER*/
 footer p{
     color: white;
-    font-size:25px;
+    font-size:12px;
     text-align: center;
     line-height: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 .imgcjh{
